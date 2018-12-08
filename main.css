@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+    div {
+        height: 150px;
+        width: 150px;
+    }
+img {
+    width: 100%;
+}
