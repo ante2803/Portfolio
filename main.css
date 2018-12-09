@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -7,23 +11,35 @@ header {
     width: 100%;
 }
 header div:first-of-type{
-        height: 100px;
-        width: 100px;
-    }   
+  height: 100px;
+  width: 100px;
+}   
 header div img {
     width: 100%;
 }
 h1 {
     margin-right: 10px;
 }
+
+
+/******************
+      Main
+*******************/   
+
 main {
-    width: 100%;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
-main div {
-  height: 500px;
-  width: 800px;
+main > div {
+  max-width: 1400px;
+  width: 100%; 
+}
+
+main > div div:first-of-type {
   margin: 0 auto;
+  max-width: 800px;
 }
 main div img {
    width: 100%;
