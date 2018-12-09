@@ -2,12 +2,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid;
-}
-    div {
-        height: 150px;
-        width: 150px;
-    }
-img {
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
     width: 100%;
+}
+div:first-of-type{
+        height: 100px;
+        width: 100px;
+    }   
+header div img {
+    width: 100%;
+}
+h1 {
+    margin-right: 10px;
+}
+main {
+    width: 100%;
+}
+main div img {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
 }
