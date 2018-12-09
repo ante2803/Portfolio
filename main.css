@@ -6,7 +6,7 @@ header {
     padding-bottom: 5px;
     width: 100%;
 }
-div:first-of-type{
+header div:first-of-type{
         height: 100px;
         width: 100px;
     }   
