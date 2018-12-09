@@ -19,8 +19,12 @@ h1 {
 main {
     width: 100%;
 }
+
+main div {
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+}
 main div img {
-    height: 500px;
-    width: 800px;
-    margin: 0 auto;
+   width: 100%;
 }
